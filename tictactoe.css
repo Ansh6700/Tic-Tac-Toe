@@ -1,0 +1,47 @@
+body{
+    background-color:#F2EFC7;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    gap: 1vmin;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    font-size: 8vmin;
+    color: white;
+    background-color: black;
+}
+#reset{
+    padding: 6px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+#new-btn{
+    padding: 6px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+#msg{
+    font-size: 40px;
+}
+.hide{
+    display: none ;
+}
